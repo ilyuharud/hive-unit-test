@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS ${SCHEME}subs_city (
+subs_key string,
+city_id  INT
+) ROW FORMAT DELIMITED FIELDS TERMINATED BY ';';
